@@ -1,0 +1,29 @@
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Editor / OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Data: keep the folders, ignore the contents ---
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- Private course material: never goes to GitHub ---
+data/private/

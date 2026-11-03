@@ -1,1 +1,4 @@
 python-dotenv>=1.0
+python-dotenv>=1.0
+arxiv>=2.1
+requests>=2.31
